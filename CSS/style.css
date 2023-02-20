@@ -142,6 +142,7 @@ main .sfondo-grande .verde{
 
 main .sfondo.scuro{
   background-color: #23272a;
+  border-bottom: 1px solid lightgray;
 }
 
 main .sfondo .content-rosa{
@@ -168,10 +169,25 @@ main .sfondo .content-celeste .row .col{
   height: 450px;
 }
 
-
-
                 /*FINE SCURO*/
 
-
-
 /* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+footer .sfondo.scuro{
+  align-items: flex-end;
+  background-color: #23272a;
+  height: 100px;
+}
+
+footer .container{
+  justify-content: space-between;
+  height: 70%;
+  background-color: #7fffd4;
+}
+
+footer .border{
+  background-color: #ffb6c1;
+}
+/* FINE FOOTER */
