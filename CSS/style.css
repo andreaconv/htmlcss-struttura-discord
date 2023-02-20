@@ -7,8 +7,18 @@
 
 .container{
   margin: 0 auto;
-  width: 1000px;
+  min-width: 600px;
+  width: 60%;
   background-color: green;
+}
+
+.flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
 }
 
 .border{
@@ -88,10 +98,6 @@ main .jumbotron .border{
                 /* INIZIO BOX */
 
 main .sfondo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   border: 1px solid black;
   width: 100%;
   height: 500px;
@@ -105,14 +111,14 @@ main .sfondo.grigio{
 }
 
 main .sfondo .content-big{
-  width: 40%;
-  height: 80%;
+  width: 60%;
+  height: 300px;
   background-color: #1e90ff;
 }
 
-.content-small{
-  width: 20%;
-  height: 80%;
+main .sfondo .content-small{
+  width: 40%;
+  height: 300px;
   background-color: #ffc0cb;
 }
 
@@ -128,12 +134,38 @@ main .sfondo.grigio .container{
 
                 /*INIZIO SCURO*/
 
+main .sfondo.scuro{
+  background-color: #23272a;
+}
+
+main .sfondo .content-rosa{
+  width: 30%;
+  height: 450px;
+  background-color: #f08080;
+}
+
+main .sfondo .content-celeste{
+  width: 60%;
+  height: 450px;
+  background-color: #20b2aa;
+}
+
+main .sfondo .content-celeste ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+main .sfondo .content-celeste ul li{
+  border: 1px dashed white;
+  width: calc(100% / 4);
+  height: 100%;
+}
+
 
 
                 /*FINE SCURO*/
 
-main .sfondo.scuro{
-  background-color: #23272a;
-}
+
 
 /* FINE MAIN */
