@@ -1,18 +1,29 @@
-/* GENERAL */
+/* INIZIO GENERAL */
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 .container{
   margin: 0 auto;
-  max-width: 1000px;
-}
-.border{
-  border: 1px dashed black;
+  width: 1000px;
 }
 
+.border{
+  border: 1px dashed black;
+  /* centrare verticalmente */
+  display: flex;
+  align-items: center;
+  /* centrare verticalmente */
+}
+/* FINE GENERAL */
+
+/* INIZIO HEADER */
 header{
+  display: flex;
+  align-items: center;
+
   width: 100%;
   height: 70px;
   background-color: #add8e6;
@@ -25,19 +36,28 @@ header{
   height: 40px;
   background-color: #daa520;
 }
-nav .border{
+
+header .border{ /*DIV LOGO E LOGIN*/
+  width: 20%;
+}
+
+nav.border{
   width: 60%;
 }
 
 nav ul{
   display: flex;
   flex-wrap: wrap;
+  /* centrare gli elementi della lista */
   list-style: none;
 }
+
 nav ul li{
   margin-right: 15px;
 }
+
 nav ul li a{
   color: black;
   text-decoration: none;
 }
+/* FINE HEADER */
