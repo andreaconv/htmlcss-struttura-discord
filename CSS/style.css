@@ -9,7 +9,6 @@
   margin: 0 auto;
   min-width: 600px;
   width: 60%;
-  background-color: green;
 }
 
 .flex{
@@ -110,13 +109,13 @@ main .sfondo.grigio{
   background-color: lightgray;
 }
 
-main .sfondo .content-big{
+main .sfondo .box-azzurro{
   width: 60%;
   height: 300px;
   background-color: #1e90ff;
 }
 
-main .sfondo .content-small{
+main .sfondo .box-rosa{
   width: 40%;
   height: 300px;
   background-color: #ffc0cb;
@@ -126,9 +125,16 @@ main .sfondo .content-small{
 
                 /*INIZIO VERDE*/
 
-main .sfondo.grigio .container{
-  height: 90%;
+main .sfondo-grande{
+  height: 1000px;
+  background-color: lightgray;
 }
+
+main .sfondo-grande .verde{
+  background-color: green;
+  height: 600px;
+}
+
 
                 /*FINE VERDE*/
 
@@ -139,27 +145,27 @@ main .sfondo.scuro{
 }
 
 main .sfondo .content-rosa{
-  width: 30%;
+  width: calc(100% / 3);
   height: 450px;
   background-color: #f08080;
 }
 
 main .sfondo .content-celeste{
-  width: 60%;
+  width: calc(100% / 3 * 2);
   height: 450px;
   background-color: #20b2aa;
 }
 
-main .sfondo .content-celeste ul{
+main .sfondo .content-celeste .row{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
 }
 
-main .sfondo .content-celeste ul li{
+main .sfondo .content-celeste .row .col{
   border: 1px dashed white;
   width: calc(100% / 4);
-  height: 100%;
+  height: 450px;
 }
 
 
